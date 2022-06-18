@@ -10,5 +10,5 @@ The motivation of this project is to explore how python is used to encrypt/decry
 - Python 3.9
 - Libaries used: os, cryptography
 
-Code for encryption: ```encrypt.py```
+Code for encryption: ```encrypt.py``` <br/>
 Code for decryption: ```decrypt.py```
